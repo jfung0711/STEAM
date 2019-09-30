@@ -1,20 +1,181 @@
-<!DOCTYPE html>
+<html><!DOCTYPE html>
 <html>
+  
+  <head>
+    <title>Joey's STEAM Portfolio</title>   
 
-<body>
+    <style>
+      body {
+        margin: 0px; 
+        padding: 0px;
+      }
 
-   <h1>Joey's STEAM portfolio</h1>
-   
-   
-   <p>
-      This is where I store my STEAM projects online.
-   </p>
+      header {
+        color: #eee;
+        background-color: #333;
+        padding: 8px;
+        font-family: Helvetica;
+        font-size: 14px;
+      }
 
-	<a href="ar.html">Augmented Reality Business Card</a><br>
-    <a href="">project 2</a><br>
-    <a href="">project 3</a><br>
+      header h1 {
+        margin: 0px;
+        padding: 0px;
+  
+        /*Text stylings*/
+        color: #333;
+        font-family: 'Vibes', cursive;
+      }
 
 
-</body>
+      aside {
+       float: right; /*Setting the float property to "right" positions this element to the right.*/
+  
+       margin-top: -24px; 
+       margin-right: 5%;
+        margin-bottom: 12px;
+       margin-left: 5%;
+        border: 0px;
+        right: 0px;
+        margin: 12px;
+        padding: 4px;
+        width: 25%;
+        background-color: #eee;
+        box-shadow: 4px 4px #aaa;
+        text-align: center;
+        border-radius: 15px;
+      }
+
+      section {
+        margin: 12px;
+        padding-left: 24px;
+      }     
+      section h1 {
+        padding: 0px; 
+        margin: 0px;
+        margin-bottom: 36px;
+        background-color: #888;
+
+        /*Text stylings*/
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-size: 48px;
+  
+        /*Circle decoration*/
+        /*border-radius: 50%;*/
+        /*width: 50px;*/
+        height: 50px;
+        box-shadow: 4px 4px #aaa;
+        } 
+      section h2 {
+        font-family: 'Mansalva', cursive;
+        font-size: 48px;
+        padding: 0px; margin-bottom: 0px;
+       }
+      #intro {
+        width: 68%;
+      }
+
+      .projectPreview {
+        /*float: left;*/
+        border: 0px;
+        width: 90%;
+        margin: 2%;
+        padding: 2%;
+        border-radius: 15px;
+        background-color: #ddd;
+      }
+
+      img {
+        /*float: left;*/
+        margin: 8px;
+      }
+
+      footer {
+        float: left;
+        text-align: right;
+        background-color: #111;
+        color: #eee;
+        margin: 0px;
+        padding: 1%;
+        width: 98%;
+      }
+    </style>
+
+    <!-- Getting 'Mansalva' font from Google -->
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+
+  </head>
+  
+  <body>
+
+    <!-- The banner that runs along the top border. Edit the element below to title your portfolio website. -->
+    <header>
+      <h1>Joey Fung, <i>Fashion Profolio</i></h1>
+      <h2>A fashion deisgn student in Idyllwild Arts Academy</h2> 
+    </header>
+
+    <!-- The navigation box that lines the right border; edit this element to adjust your navigation. -->
+    <aside>
+      <a href="#p1">Fashion project 1</a><br>
+      <a href="#p2">Fashion project 2</a><br>
+      <a href="#p3">Fashion project 3</a><br>
+      <a href="#p4">Fashion project 4</a><br>
+    </aside>
+
+    <!-- A small bio section that serves as an introduction. What are your artistic goals/interest/missions? How do the projects you have on display reflect those goals? -->
+    <section id="intro">
+      <h2>Hello</h2>
+      
+      <p>I am a second year junior whos currently studying fashion design in Idyllwild Arts Academy. Here are some project I completed last year in IAA.</p> 
+     
+    </section>
+
+    <!-- The project section -->
+    <section>
+      <h2>Projects</h2>
+
+      <!-- Each project is an article element; edit below to reflect your own projects. -->
+      <article class="projectPreview" id="p1">
+        <h1>Fall dance concert tiarra</h1>
+        <h3>Project Description:</h3>
+        <p> THis tiarra was made for the lead queen dancer during last years fall dance concert. I was put under the pressure and finished the tiarra in one day. I sew every bead by hand stitching, mainly used light blue and light green to shown the queen's loyalty in the ballet. 
+         </p>
+        <img src="crown.JPG" width=400px>
+        <img src="IMG_5565.JPG" width=300px>
+        <video controls="controls" width="800" height="600" src="fashion1.mov">
+        
+
+      </article>    
+
+      <article class="projectPreview" id="p2">
+        <h1>Upcycling fashion show ss19</h1>
+        <h3>Project Description:</h3>
+        <p>I used clothes form the Help Center in town to make this garment. I was mainly inspired by Victor and Rolf fall counture 2016, some other garments I found on pinterst as shown on my mood board. 
+          </p>
+        <img src="IMG_4256.JPG" width=800px>
+        <img src="IMG_4769.JPG" width=800px>
+      </article>    
+
+      <article class="projectPreview" id="p3">
+        <h1>Project Title</h1>
+        <h3>Project Description:</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </article>    
+
+      <article class="projectPreview" id="p4">
+        <h1>Project Title</h1>
+        <h3>Project Description:</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </article>   
+    </section>  
+
+    
+
+    <footer>
+      <p>This website is designed and programmed by Joey Fung.</p>
+    </footer>   
+  
+  </body>
 
 </html>
