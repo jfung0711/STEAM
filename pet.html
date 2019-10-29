@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html>
+  
+  <!-- The head element contains our title and links to our stylesheet, i.e., CSS, and google fonts.  -->
+  <head>
+    <!-- Titling the webpage; this appears on browser tabs. -->
+    <title>Fortune Teller 3000</title>   
+    
+    <!-- Linking CSS stylesheet. -->
+    <link href="style.css" rel="stylesheet">    
+  </head>
+  
+  <body>
+
+    <header>
+      <h1>Fortune Teller 3000</h1>
+    
+    <img src="dog.jpg" style="width:100%">
+    <img src="cat.jpg" style="width:100%">
+    <img src="panda.jpg" style="width:100%">
+ 
+
+    </header>
+
+    <!-- This section holds the question. -->
+    <section id="questions">
+
+
+      <h3>What is your Social Sevurity Number, good sir/madam?</h3>  
+      <input id="ssn" type="text" value=""> 
+
+      <h3>What animal do you want as a pet??</h3>  
+      <select id="pet">
+        <option value="dog">dog</option>
+        <option value="cat">cat</option>
+        <option value="panda">panda</option>
+      </select>
+      
+      <h3>Do you live in a big place, good dir/madam?</h3> <select id="bigplace">
+        <option value="yes">yes</option>
+        <option value="no">no</option>
+        </select>
+
+      <h3>Do you like to take outside walks, good sir/madam?</h3>  
+      <select id="outsidewalk">
+        <option value="yes">yes</option>
+        <option value="no">no</option>
+        </select>
+
+      <h3>Do you like to play with children, good sir/madam?</h3>  
+      <select id="play">
+        <option value="yes">yes</option>
+        <option value="no">no</option>
+        </select>       
+      
+      
+      <br>
+      <br>
+      <input type="button" onClick="readFortune()"value="what animal should I have as a pet?">
+
+    </section>
+
+    <section id="fortuneDisplay">
+    </section>
+
+    <audio src="earfquake.mp3" autoplay></audio>
+  
+  </body>
+
+  <!-- This is where we link our "script.js" file to our html. -->
+  <script src="script.js" type="text/javascript"></script>
+   
+</html>
+
